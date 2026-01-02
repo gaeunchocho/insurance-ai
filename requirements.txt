@@ -1,0 +1,7 @@
+streamlit
+gspread
+google-auth
+requests
+langchain-huggingface
+langchain-chroma
+python-dotenv
