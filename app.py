@@ -14,7 +14,7 @@ from langchain_chroma import Chroma
 
 # --- [1. 환경 설정 및 세션 초기화] ---
 load_dotenv()
-st.set_page_config(page_title="hi_light: 현대해상 약관 상담", page_icon="💡", layout="wide")
+st.set_page_config(page_title="hi_light: 현대해상 보험 추천", page_icon="💡", layout="wide")
 
 @st.cache_resource
 def load_embeddings():
