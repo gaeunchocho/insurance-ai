@@ -1,7 +1,10 @@
 streamlit
+langchain
+langchain-community
+langchain-huggingface
+sentence-transformers
+chromadb
+torch
+pandas
 gspread
 google-auth
-requests
-langchain-huggingface
-langchain-chroma
-python-dotenv
