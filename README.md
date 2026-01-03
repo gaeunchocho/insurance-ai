@@ -9,10 +9,15 @@
 
 **기술스택**
 Frontend : Streamlit
+
 AI : Framework,"LangChain, LangChain-Chroma, LangChain-HuggingFace"
+
 LLM : Claude 3.5 Sonnet (via Potens API)
+
 Embeddings : ko-sroberta-multitask
+
 Database : ChromaDB (Vector Store)
+
 Data Sync : Google Sheets API (gspread)
 
 **설치 및 실행 방법**
