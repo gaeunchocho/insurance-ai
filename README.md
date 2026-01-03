@@ -2,12 +2,18 @@
 현대해상 약관 데이터를 바탕으로 사용자에게 최적의 보험 상품을 추천하고 상담해주는 RAG(Retrieval-Augmented Generation) 기반 AI 챗봇입니다.**
 
 **주요 기능**
+
 맞춤 키워드 추천: 사용자의 상황(대상, 위험 요소, 우선순위 등)을 태그로 선택하여 빠르게 맞춤형 상품을 추천받을 수 있습니다.
+
 약관 기반 상담: LangChain과 ChromaDB를 활용하여 실제 보험 약관 데이터를 근거로 정확한 정보를 제공합니다.
+
 실시간 상품 연결: 추천된 상품에 대해 현대해상 공식 홈페이지 상세 페이지로 연결되는 다이렉트 버튼을 제공합니다.
+
 상담 로그 기록: Google Sheets API를 연동하여 사용자의 상담 흐름과 클릭 데이터를 실시간으로 기록하고 분석합니다.
 
+
 **기술스택**
+
 Frontend : Streamlit
 
 AI : Framework,"LangChain, LangChain-Chroma, LangChain-HuggingFace"
