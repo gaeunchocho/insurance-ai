@@ -37,9 +37,13 @@ cd insurance-ai
 pip install -r requirements.txt
 
 환경 변수 설정 .env 파일 또는 Streamlit Secrets에 아래 정보를 설정해야 합니다.
+
 POTENS_API_KEY: AI 모델 호출을 위한 API 키
+
 POTENS_ENDPOINT: API 엔드포인트 주소
+
 SPREADSHEET_NAME: 로그를 기록할 구글 시트 이름
+
 gcp_service_account: 구글 API 인증 정보 (JSON 형식)
 
 앱 실행
